@@ -20,7 +20,6 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding: 12px 24px;
-    margin-right: 24px;
     display: inline;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
@@ -83,7 +82,7 @@ border: 1px solid transparent;
     color:var(--logo-color);
     margin-right: 76px;
     display: inline-block;
-    margin-bottom:16px;
+    margin-bottom: 16px;
 }
 .accent{
     color:var(--span-color);
@@ -91,12 +90,11 @@ border: 1px solid transparent;
     margin-right: 76px;
 }
 .list{
-    list-style:none;
-    display: flex;
-    gap: 40px;
     list-style: none;
     margin: 0;
     padding-left: 0;
+    display: flex;
+    gap: 40px;
 }
 .link{
     text-decoration: none;
@@ -162,6 +160,8 @@ border: 1px solid transparent;
     background-color: #2e2f42;
     padding:188px 0;
     text-align: center;
+    background-image: url(/images/people-office.jpg);
+    max-width: 1440px;
 }
 .coments{
     color: #ffffff;
@@ -171,6 +171,7 @@ border: 1px solid transparent;
     letter-spacing: 0.02em;
     max-width: 496px;
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 .next-section{
     list-style: none;
@@ -186,6 +187,7 @@ border: 1px solid transparent;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .heading_app{
     font-weight: 500;
@@ -267,7 +269,6 @@ margin-bottom: 72px;
     padding-bottom: 120px;
 }
 .filter-list{
-    margin-left: 24px;
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -295,7 +296,7 @@ img {
     gap: 24px;
 }
 .first-point-section{
-    width:calc((100% - 48px) / 3);
+    width: calc((100% - 3 * 16px) / 3)
 }
 .next-next-section{
     padding-bottom:120px ;
@@ -379,4 +380,53 @@ button {
 }
 .next-link{
     width: calc((100% - 48px)/3);
+}
+.acapit-social{
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.customers{
+    text-decoration: none;
+    text-align: center;
+    width: 1158px;
+    margin: 120px 156px;
+    padding: 0 15px;
+}
+.icon{
+    height: 88px;
+    display: inline-flex;
+    gap: 24px;
+}
+.icon-section{
+    width: 1440px;
+    height: 200px;
+}
+.one-icon{
+    border:1px solid #8e8f99;
+    border-radius: 4px;
+}
+.one-icon:hover,
+.one-icon:focus{
+    border:1px solid #404BBF;
+}
+.svg{
+    color: #8e8f99;
+}
+.svg:hover,
+.svg:focus {
+    color: #404bbf;
+}
+.footer-li{
+    background-color: #4D5AE5;
+    border-radius: 50%;
+}
+.feature{
+    margin: 24px 100px;
+    align-items: center;
+}
+.maeby{
+    background-color: #f4f4fd;
+}
+.footer-media{
+    display: inline-block;
 }
