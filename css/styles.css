@@ -73,6 +73,8 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
 --heading_app-color:#2e2f42;
 --acapit_app-color:#434455;
 --service-background-color:#4d5ae5;
+--link-team-background-color:#4d5ae5;
+--svg-team-fill:#f4f4fd;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -347,8 +349,7 @@ img {
     display: block;
 }
 .ads:hover,
-.ads:focus {
-    display: block;
+.ads:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -468,4 +469,29 @@ button {
 }
 .footer-media{
     display: inline-block;
+}
+.social-team{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.media-team{
+    width: 40px;
+    height: 40px;
+}
+.link-team{
+    width: 100%;
+    height: 100%;
+    background-color: var(--link-team-background-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link-team:hover,
+.link-team:focus{
+    background-color: #404bbf;
+}
+.svg-team{
+    fill: var(--svg-team-fill);
 }
