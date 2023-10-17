@@ -160,8 +160,13 @@ border: 1px solid transparent;
     background-color: #2e2f42;
     padding:188px 0;
     text-align: center;
-    background-image: url(/images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+     rgba(46, 47, 66, 0.7)),
+      url(/images/people-office.jpg);
     max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .coments{
     color: #ffffff;
@@ -285,6 +290,9 @@ img {
 }
 .header{
     border-bottom: 1px solid #e7e9fc;
+    box-shadow :0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .navigation{
     display: flex;
@@ -434,9 +442,17 @@ button {
 .feature{
     margin: 24px 100px;
     align-items: center;
+    width: 64px;
+    height: 64px;
 }
 .maeby{
     background-color: #f4f4fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 .footer-media{
     display: inline-block;
