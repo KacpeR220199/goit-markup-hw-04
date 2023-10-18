@@ -453,10 +453,13 @@ button {
 .one-icon{
     border:1px solid #8e8f99;
     border-radius: 4px;
+    height: 100%;
 }
-.one-icon:hover,
+.one-icon:hover{
+    border: 1px solid #404BBF;
+}
 .one-icon:focus{
-    border:1px solid #404BBF;
+    border-color: #404bbf;
 }
 .svg{
     color: #8e8f99;
