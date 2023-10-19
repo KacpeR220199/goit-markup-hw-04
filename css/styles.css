@@ -215,7 +215,8 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .acapit_app{
     font-size: 16px;
@@ -254,8 +255,6 @@ margin-bottom: 72px;
     list-style: none;
 }
 .first-point{
-    width: 40px;
-    height: 40px;
     background-color: #ffffff;
     width: calc((100% - 72px)/4);
     border-radius: 0px 0px 4px 4px;
@@ -282,8 +281,6 @@ margin-bottom: 72px;
  width: 1158px;
  margin: 0 auto;
  padding: 0 15px;
- display: flex;
- align-items: baseline;
 }
 .section{
     padding-top: 120px;
@@ -439,30 +436,21 @@ button {
     padding: 0 15px;
 }
 .icon{
-    height: 88px;
-    display: inline-flex;
     gap: 24px;
     display: flex;
 }
-.icon-section{
-    width: 1440px;
-    height: 200px;
+.customer-section{
     padding-top: 120px;
     padding-bottom: 120px;
 }
 .one-icon{
-    border:1px solid #8e8f99;
-    border-radius: 4px;
-    height: 100%;
-}
-.one-icon:hover{
-    border: 1px solid #404BBF;
+    height: 88px;
+    width: 168px;
 }
 .one-icon:focus{
     border-color: #404bbf;
 }
 .svg{
-    color: #8e8f99;
     fill:currentColor;
 }
 .svg:hover,
@@ -473,6 +461,7 @@ button {
     background-color: #4D5AE5;
     border-radius: 50%;
     height:40px;
+    width: 40px;
 }
 .feature{
     margin: 24px 100px;
@@ -554,4 +543,23 @@ button {
 }
 .footer-svg{
     fill: var(--footer-svg-fill);
+}
+.footer-wrap{
+    display: flex;
+    align-items: baseline;
+}
+.footer-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color);
+    margin-right: 76px;
+    margin-bottom: 17.5px;
+    display: inline-block;
+    
+    align-items: center;
+    height: 24px;
 }
