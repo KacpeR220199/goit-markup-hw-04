@@ -207,6 +207,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     letter-spacing: 0.02em;
     color: var(--heading_app-color);
     margin-bottom: 8px;
+    padding:0px 16px;
 }
 .acapit{
     font-size: 16px;
@@ -219,6 +220,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--acapit_app-color);
+    padding:0px 16px;
 }
 .what-are{
 font-size: 36px;
