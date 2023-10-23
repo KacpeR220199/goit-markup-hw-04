@@ -351,6 +351,7 @@ img {
 }
 .ads{
     display: block;
+    height:100%;
 }
 .ads:hover,
 .ads:focus{
