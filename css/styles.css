@@ -370,7 +370,7 @@ h4,
 h5,
 h6,
 p{
-    margin: 0;
+    margin:32px 0;
 }
 .header-wrap{
     display: flex;
