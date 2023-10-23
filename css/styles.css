@@ -88,9 +88,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     letter-spacing:0.03em;
     text-transform: uppercase;
     color:var(--logo-color);
-    margin-right: 76px;
     display: inline-block;
-    margin-bottom: 16px;
 }
 .accent{
     color:var(--span-color);
@@ -215,8 +213,6 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-top: 8px;
-    margin-bottom: 8px;
 }
 .acapit_app{
     font-size: 16px;
