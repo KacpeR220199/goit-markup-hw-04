@@ -222,6 +222,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     letter-spacing: 0.02em;
     color:var(--acapit_app-color);
     padding:0px 16px;
+    margin-bottom: 16px;
 }
 .what-are{
 font-size: 36px;
