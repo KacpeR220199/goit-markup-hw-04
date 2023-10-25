@@ -1,4 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
+:root{
+--first-color:#4d5ae5;
+--next-color:#2f2e42;
+--body-color:#434455;
+--logo-color:#4d5ae5;
+--span-color:#2e2f42;
+--link-color:#2e2f42;
+--button-all-color:#ffffff;
+--button-all-background-color:#404BBF;
+--mail-color:#434455;
+--link-studio-color:#2e2f42;
+--filter-all-color:#4d5ae5;
+--filter-all-background-color:#f4f4fd;
+--heading_app-color:#2e2f42;
+--acapit_app-color:#434455;
+--service-background-color:#4d5ae5;
+--link-team-background-color:#4d5ae5;
+--svg-team-fill:#f4f4fd;
+--icon-link-color:#8e8f99;
+--acapit-social-color:#ffffff;
+--footer-link-background-color:#4d5ae5;
+--footer-svg-fill:#f4f4fd;
+}
+* {  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Roboto',sans-serif;
     color:var(--body-color);
@@ -57,29 +84,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
 .service:focus{
     background-color: #404bbf;
 }
-:root{
---first-color:#4d5ae5;
---next-color:#2f2e42;
---body-color:#434455;
---logo-color:#4d5ae5;
---span-color:#2e2f42;
---link-color:#2e2f42;
---button-all-color:#ffffff;
---button-all-background-color:#404BBF;
---mail-color:#434455;
---link-studio-color:#2e2f42;
---filter-all-color:#4d5ae5;
---filter-all-background-color:#f4f4fd;
---heading_app-color:#2e2f42;
---acapit_app-color:#434455;
---service-background-color:#4d5ae5;
---link-team-background-color:#4d5ae5;
---svg-team-fill:#f4f4fd;
---icon-link-color:#8e8f99;
---acapit-social-color:#ffffff;
---footer-link-background-color:#4d5ae5;
---footer-svg-fill:#f4f4fd;
-}
+
 .logo{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -209,22 +214,18 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     letter-spacing: 0.02em;
     color: var(--heading_app-color);
     margin-bottom: 8px;
-    padding:0px 16px;
 }
 .acapit{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 8px;
 }
 .acapit_app{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--acapit_app-color);
-    padding:0px 16px;
-    margin-bottom: 16px;
 }
 .what-are{
 font-size: 36px;
@@ -278,7 +279,6 @@ margin-bottom: 72px;
     letter-spacing: 0.02em;
     max-width: 264px;
     margin: 0;
-    margin-bottom: 16px;
 }
 .container{
  width: 1158px;
@@ -371,15 +371,7 @@ img {
     border-top: none;
     margin-bottom: 8px;
     gap: 32px;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p{
-    margin:32px 0;
+    padding: 32px 16px; 
 }
 .header-wrap{
     display: flex;
